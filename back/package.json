@@ -1,0 +1,19 @@
+{
+  "name": "back",
+  "version": "1.0.0",
+  "description": "Test app for Avela interview",
+  "main": "src/app.js",
+  "scripts": {
+    "dev": "node --watch --env-file .env src/app.js",
+    "start": "src/node app.js"
+  },
+  "author": "Juan Francisco Aguirre",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "mysql2": "^3.10.1",
+    "sequelize": "^6.37.3",
+    "uuid": "^10.0.0"
+  }
+}
